@@ -1,0 +1,58 @@
+ form{
+
+     		position: absolute;
+     		top:50%;
+        	     left:50%;
+     		padding: 5px;
+     		border: 5px solid #00f;
+               border-radius: 6px;
+     		transform: translate(-50%,-50%);
+               box-shadow: 10px 10px #262;
+     	}
+       body{
+         
+     	animation: a 29s linear infinite;
+
+     }
+     @keyframes a
+{
+     0%{
+          background: url(a.jpg);
+      background-size: cover;}
+     25%{
+          background: url(b.jpg);
+           background-size: cover;
+     }
+     50%{
+          background:url(c.jpg);
+           background-size: cover;
+     }
+     75%{
+          background: url(d.jpg);
+           background-size: cover;
+     }
+     90%{
+          background: #262626;
+
+         
+     }
+
+     }
+     	
+     	#display{
+     		margin: 8px;
+     		margin-left: 15px;
+     		padding: 8px;
+     		font-size: 18px;
+     		width: 200px;
+     		border: 3px solid #010;
+     		font-family: impact;
+     		
+     		background:#5aa86f;}
+     	#b{
+     		width: 50px;
+     		height: 20px;
+     		margin: 5px;
+     		border-radius: 10px;
+     		background: cyan;
+     		font-style: bold;}
